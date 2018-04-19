@@ -1,1 +1,9 @@
 npm start
+ng serve
+npm install --save bootstrap
+ng serve
+ng g c ass1
+ng g c ass1b
+ng g c success-alert
+ng generate component warning-alert
+npm start

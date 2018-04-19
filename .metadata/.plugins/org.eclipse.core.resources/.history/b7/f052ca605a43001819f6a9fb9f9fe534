@@ -1,0 +1,15 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-ass1b',
+  templateUrl: './ass1b.component.html',
+  styleUrls: ['./ass1b.component.css']
+})
+export class Ass1bComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}

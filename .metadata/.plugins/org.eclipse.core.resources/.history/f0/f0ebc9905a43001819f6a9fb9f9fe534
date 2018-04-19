@@ -1,0 +1,22 @@
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+
+
+import { AppComponent } from './app.component';
+import { Ass1Component } from './ass1/ass1.component';
+import { Ass1bComponent } from './ass1b/ass1b.component';
+
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    Ass1Component,
+    Ass1bComponent
+  ],
+  imports: [
+    BrowserModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
